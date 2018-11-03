@@ -1,0 +1,47 @@
+04/Noviembre/2018
+
+Matemáticas Aplicadas Y Ciencias de la Computación / MACC
+
+Descripción  Proyecto de Programación 2018-II
+ 
+Presentado por:                          Presentado a:
+    Luisa Fernanda Salcedo Cortés	     José Julián Jiménez Rincón 
+    Oscar Velasco Chiquillo
+
+
+Lenguaje de Programación de Desarrollo del Proyecto: Python
+
+
+Descripción del Problema: “Tutorial PyGame”
+La idea que se tiene para el Proyecto es generar un manual o documentación 
+a cerca de la librería “PyGame” de Python, en el cual se logre explicar de 
+forma clara y concisa todo a cerca de dicha librería para que las personas 
+que se interesen en la programación y desarrollo de videojuegos se familia-
+ricen con esta, y mostrar algunos ejemplos de aplicación que conlleva la 
+misma, además de implementar un juego clásico como lo es el “Pacman”.
+
+
+Objetivo General y Específicos que conlleva:
+Ser muy claros en todo lo que vamos a presentar sobre PyGame, ya que existen 
+muchas páginas web acerca de esta librería pero que no explican de una buena 
+manera su funcionalidad y aplicación, y que incluso no tienen suficiente in-
+formación sobre los aspectos que puede abarcar PyGame al momento de implemen-
+tar un videojuego en 2D. 
+Implementar el juego conocido como “Pacman”, manteniendo su modelo de juego 
+clásico, pero dándole un toque moderno a nuestro estilo.
+
+
+Posibles Problemas:
+Estamos siendo autodidactas al investigar sobre PyGame para este proyecto, 
+así que en algún momento tendremos que enfrentarnos a dudas respecto a dicha 
+librería, además de que debemos ser muy específicos en la documentación que 
+queremos dejar a disposición de quienes se quieran abarcar en el mundo de la 
+programación de videojuegos, por ende es importante tener todos los conceptos 
+claros y saber desarrollar ejemplos que faciliten el entendimiento de todo lo 
+explicado a lo largo del manual. Estamos limitados por el tiempo, así que es-
+peramos poder terminar todos los objetivos planteados con la mejor calidad po-
+sible.
+
+Link del Repositorio en GitHub:
+https://github.com/Oscarvch03/Pygame-Tutorial
+
