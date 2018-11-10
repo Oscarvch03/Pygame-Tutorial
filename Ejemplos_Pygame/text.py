@@ -1,9 +1,9 @@
 import pygame
 
-def image_in_frame():
+def text_in_frame():
 	"""Con esta funcion vamos a crear un Frame que tenga
-	titulo, color de fondo y una imagen"""
-		
+	titulo, color de fondo y un texto."""
+
 	# Inicializamos Pygame
 	pygame.init()
 
@@ -11,35 +11,35 @@ def image_in_frame():
 	Frame = pygame.display.set_mode((600, 600))
 
 	# Titulo de la ventana
-	pygame.display.set_caption("¿Una imagen en Pygame?")
+	pygame.display.set_caption("Voy a escribir en Pygame!")
 
-	# Vamos a crear un objeto con una imagen
-	"download picture from: https://www.pexels.com/search/celebration/"
-	# Asegurese de guardar la imagen en el mismo...
-	# ...directorio donde esta el scrip
-	image = pygame.image.load("yeah.jpeg")
+	# Vamos a crear un objeto con un tipo fuente para escribir ("fuente", tamaño)
+	fuente = pygame.font.SysFont("Courier", 25)
 
-	# El cliclo del programa
+	# El ciclo del programa
 	while True:
 		# Busca los eventos posibles
 		ev = pygame.event.poll()
-		
+
 		# Permite que al oprimir el boton de cerrar la venta...
 		# ...deje de correr el programa
 		if ev.type == pygame.QUIT:
 			break
-			
+
 		# Color de la ventana (R, G, B)
 		Frame.fill((0, 200, 255))
 
-		# Sube la imagen a la ventana (objeto,(posicion_x, posicion_y))
-		Frame.blit(image, (50,100))
+		# Creamos un objeto que imprimira ("un texto", bordes suaves, color)
+		texto = fuente.render("¿Como escribir con Pygame?", True, (0,0,0))
 
-		# La superficie esta lista, 
+		# Dibuja en la ventana (el texto, (posicion_x, posicion_y))
+		Frame.blit(texto, (100,10))
+
+		# La superficie esta lista
 		pygame.display.flip()
-		
+
 	# Cerrar la ventana
 	pygame.quit()
 
-# Inicializar el programa
-image_in_frame()
+# Invocamos la funcion
+text_in_frame()
