@@ -1,0 +1,29 @@
+Carpeta Ejemplos Eventos Turtle: 
+
+Hay muchos tipos de eventos, usaremos los principales
+que tiene la libreria turtle para familiarizarnos un poco, 
+para luego pasar a los eventos en Pygame.
+
+"keypress.py":
+En este se muestra como generar eventos de tipo KeyPress, 
+es decir que se puedan ejecutar programas o funciones al 
+oprimir el teclado. (Funcion: onkey())
+
+"mouse.py":
+En este se muestra como generar eventos de tipo "Mouse",
+es decir que al hacer click se ejecuten las funciones o 
+programas enlazados al mismo. (Funcion: onclick())
+
+"mouse2.py":
+En este se muestra como generar eventos de tipo "Mouse",
+es decir que al mantener el click mientras se arrastra el 
+mouse por la ventana se ejecutan las funciones o programas
+enlazados al evento. (Funcion: onrelease())
+
+"timer.py" & "timer2.py":
+En este se muestra como generar eventos de tipo "Timer",
+es decir que podemos definir el tiempo en que queremos
+que se ejecute una funcion o programa determinado. 
+(Funcion: ontimer())
+¿Cual es la diferencia entre ambos archivos al momento
+de la ejecucion del evento "Timer"?
