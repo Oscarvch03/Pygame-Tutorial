@@ -29,8 +29,8 @@ while estado:
 			estado = False
 
 	keys = pygame.key.get_pressed()
-	# Al accionar las teclas del teclado el rectangulo se desplaza a
-	# esa direccion
+	# Al accionar las flechas del teclado el rectangulo se desplaza a...
+	# ... esa direccion
 	if keys[pygame.K_LEFT]:
 		x -= vel
 	if keys[pygame.K_RIGHT]:

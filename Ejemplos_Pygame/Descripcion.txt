@@ -1,33 +1,42 @@
 Carpeta Ejemplos Pygame:
 
 En esta carpeta veremos algunos ejemplos de como
-se usan las funciones que lleva consigo Pygame, 
-ademas de como implementar eventos que controlen 
-cuando se debe o no ejecutar alguna parte del 
+se usan las funciones que lleva consigo Pygame,
+ademas de como implementar eventos que controlen
+cuando se debe o no ejecutar alguna parte del
 programa.
 
 En todos los archivos se usan algunas funciones
-para modificar los atributos de la ventana, su 
-respectiva descripcion se podra ver en 
-"Documentacion_Pygame.pdf" que se encuentra en 
+para modificar los atributos de la ventana, su
+respectiva descripcion se podra ver en
+"Documentacion_Pygame.pdf" que se encuentra en
 desarrollo.
 
 "image.py":
-En este archivo se muestra como importar una imagen 
-que fue descargada, para poder ubicarla y manipularla 
+En este archivo se muestra como importar una imagen
+que fue descargada, para poder ubicarla y manipularla
 en la ventana de Pygame.
 
 "rectangle.py":
-En este archivo se muestra como dibujar un rectangulo 
+En este archivo se muestra como dibujar un rectangulo
 en la ventana de Pygame.
 
 "text.py":
-En este archivo se muestra como escribir texto en la 
+En este archivo se muestra como escribir texto en la
 ventana de Pygame.
 
-"rectangleKeyPress.py": 
-En este archivo se muestra el movimiento de un rectangulo 
+"rectangleKeyPress.py":
+En este archivo se muestra el movimiento de un rectangulo
 en la ventana de Pygame, manejado por eventos del teclado.
 (Tipo "KeyPress").
 
-Siguen en desarrollo muchos mas ejemplos....
+"jumpRectangle.py":
+Este archivo en cierto sentido es una mejora al anterior
+("rectangleKeyPress.py"), ya que ahora el rectangulo tambien
+puede saltar al presionar "Espacio", y ya no se sale de la
+ventana al momento de moverlo.
+
+"Animation/animation.py":
+En este archivo se hace uso de "Sprites", que basicamente se
+centra en generar animaciones, basados en imagenes de personajes
+con distintos movimientos.

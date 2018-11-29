@@ -7,7 +7,7 @@ def image_in_frame():
 	# Inicializamos Pygame
 	pygame.init()
 
-	# Creamos superficie de la ventana en la que trabajaremos(ancho, largo)
+	# Creamos superficie de la ventana en la que trabajaremos(ancho, alto)
 	Frame = pygame.display.set_mode((600, 600))
 
 	# Titulo de la ventana
@@ -17,7 +17,7 @@ def image_in_frame():
 	# download picture from: https://www.pexels.com/search/celebration/
 	# o encuentrela en el repositorio en GitHub
 	# Asegurese de guardar la imagen en el mismo...
-	# ...directorio donde esta el scrip
+	# ...directorio donde esta el script
 	image = pygame.image.load("yeah.jpeg")
 
 	# El ciclo del programa
@@ -25,7 +25,7 @@ def image_in_frame():
 		# Busca los eventos posibles
 		ev = pygame.event.poll()
 
-		# Permite que al oprimir el boton de cerrar la venta...
+		# Permite que al oprimir el boton de cerrar la ventana...
 		# ...deje de correr el programa
 		if ev.type == pygame.QUIT:
 			break
@@ -33,10 +33,10 @@ def image_in_frame():
 		# Color de la ventana (R, G, B)
 		Frame.fill((0, 200, 255))
 
-		# Sube la imagen a la ventana (objeto,(posicion_x, posicion_y))
-		Frame.blit(image, (50,100))
+		# Sube la imagen a la ventana (objeto, (posicion_x, posicion_y))
+		Frame.blit(image, (50, 100))
 
-		# La superficie esta lista,
+		# La ventana esta lista
 		pygame.display.flip()
 
 	# Cerrar la ventana

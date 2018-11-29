@@ -20,9 +20,9 @@ goku.color("purple")
 # Definir una funcion para que la tortuga haga un cuadrado con
 # tamaño de lado 10
 def cuadrado():
-        for i in range(4):
-            goku.forward(10)
-            goku.left(90)
+    for i in range(4):
+        goku.forward(10)
+        goku.left(90)
         goku.forward(15)
 
 # Ejecutar la funcion "cuadrado" 2000 milisegundos despues de que se

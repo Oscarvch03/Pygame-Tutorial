@@ -7,13 +7,14 @@ def text_in_frame():
 	# Inicializamos Pygame
 	pygame.init()
 
-	# Creamos superficie de la ventana en la que trabajaremos(ancho, largo)
+	# Creamos superficie de la ventana en la que trabajaremos(ancho, alto)
 	Frame = pygame.display.set_mode((600, 600))
 
 	# Titulo de la ventana
 	pygame.display.set_caption("Voy a escribir en Pygame!")
 
-	# Vamos a crear un objeto con un tipo fuente para escribir ("fuente", tamaño)
+	# Vamos a crear un objeto con un tipo fuente para escribir...
+	# ... ("fuente", tamaño)
 	fuente = pygame.font.SysFont("Courier", 25)
 
 	# El ciclo del programa
@@ -21,8 +22,8 @@ def text_in_frame():
 		# Busca los eventos posibles
 		ev = pygame.event.poll()
 
-		# Permite que al oprimir el boton de cerrar la venta...
-		# ...deje de correr el programa
+		# Permite que al dar clic el boton de cerrar la ventana...
+		# ... deje de correr el programa
 		if ev.type == pygame.QUIT:
 			break
 
@@ -30,10 +31,10 @@ def text_in_frame():
 		Frame.fill((0, 200, 255))
 
 		# Creamos un objeto que imprimira ("un texto", bordes suaves, color)
-		texto = fuente.render("¿Como escribir con Pygame?", True, (0,0,0))
+		texto = fuente.render("¿Como escribir con Pygame?", True, (0, 0, 0))
 
 		# Dibuja en la ventana (el texto, (posicion_x, posicion_y))
-		Frame.blit(texto, (100,10))
+		Frame.blit(texto, (100, 10))
 
 		# La superficie esta lista
 		pygame.display.flip()
